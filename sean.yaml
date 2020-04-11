@@ -125,7 +125,6 @@ Proxy:
   uuid: 96137544-f150-4221-bc5f-85a9229d5293
   alterId: 233
   cipher: auto
-  network: tcp
 
 - name: "Sean-Star-首尔"
   type: vmess
@@ -134,7 +133,6 @@ Proxy:
   uuid: a91e0d41-92ee-4343-bfa3-0e0112709074
   alterId: 233
   cipher: auto
-  network: tcp
 
  
 ###############################################################配置分割线
