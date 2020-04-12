@@ -118,21 +118,17 @@ Proxy:
 
 
 # 配置开始
-- name: "Sean-Star-香港"
+- name: "Sean-Star-台湾"
   type: vmess
-  server: 34.92.95.178
-  port: 37929
-  uuid: 96137544-f150-4221-bc5f-85a9229d5293
+  server: sean-star.ml
+  port: 443
+  uuid: 177eb487-f74b-4b37-8473-202ab53350f9
   alterId: 233
   cipher: auto
-
-- name: "Sean-Star-首尔"
-  type: vmess
-  server: 34.64.69.179
-  port: 29371
-  uuid: a91e0d41-92ee-4343-bfa3-0e0112709074
-  alterId: 233
-  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  Host: sean-star.ml
 
  
 ###############################################################配置分割线
