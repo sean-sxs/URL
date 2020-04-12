@@ -140,8 +140,7 @@ Proxy Group:
 - name: "自动节点选择"
   type: url-test
   proxies:
-    - "Sean-Star-香港"
-    - "Sean-Star-首尔"
+    - "Sean-Star-台湾"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -150,8 +149,7 @@ Proxy Group:
   type: select
   proxies:
     - "自动节点选择"
-    - "Sean-Star-香港"
-    - "Sean-Star-首尔"
+    - "Sean-Star-台湾"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -169,15 +167,13 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-    - "Sean-Star-香港"
-    - "Sean-Star-首尔"
+    - "Sean-Star-台湾"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - "Sean-Star-香港"
-    - "Sean-Star-首尔"
+    - "Sean-Star-台湾"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
