@@ -1,8 +1,4 @@
 ###############################################################
-# 本范例来源为网络
-# YouTube 搜索 波仔分享
-# 原文发布地址 https://www.v2rayssr.com/clashxx.html
-###############################################################
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -63,7 +59,7 @@ Proxy:
  
 # Shadowsocks 配置范本
 # 第一种配置
-#- name: "你的SS节点1"               # 软件显示的节点名字
+#- name: "SS节点1"               # 软件显示的节点名字
 #  type: ss                                  # 代理类型
 #  server: 1.2.4.8                          # 服务器 IP
 #  port: 443                                 #  端口号
@@ -73,7 +69,7 @@ Proxy:
   
 #第二种配置
 # Shadowsocks + simple-obfs   配置范本
-#- name: "你的SS节点2"
+#- name: "SS节点2"
 #  type: ss
 #  server: 1.2.4.8
 #  port: 443
@@ -85,9 +81,9 @@ Proxy:
 #    # host: bing.com                  #  伪装
  
 # VMess 的配置
-#- name: "你的V2RAY节点1" # 软件显示的节点名字
+#- name: "V2RAY节点1" # 软件显示的节点名字
 #  type: vmess # 代理类型
-#  server: v2rayssr.com # 服务器 IP
+#  server: sean-star.ml # 服务器 IP
 #  port: 443 #  端口号
 #  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
 #  alterId: 64  #额外的 ID
@@ -100,7 +96,7 @@ Proxy:
 #  # network: ws    # 网路类型 WS HTTP 等
 #  # ws-path: /path  # 路径
 #  # ws-headers:     #默认不开启
-#  #  Host: v2ray.com    # HOST
+#  #  Host: sean-star.ml    # HOST
 
 # Trojan 的配置
 #- name: "trojan"
